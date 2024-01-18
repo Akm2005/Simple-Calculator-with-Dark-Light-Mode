@@ -6,9 +6,18 @@ body {
     
 }
 .btn{
+   display: flex;
+   justify-content: center;
+   /* border: 2px solid black; */
+}
+.dark{
+    display: flex;
+    height: 20px;
+    width: 110px;
+    /* border: 2px solid black; */
     position: absolute;
-    right: 20px;
-    top: 30px;
+    right: 2%;
+    top: 1%;
 }
 
 
@@ -21,8 +30,7 @@ body {
     max-width: 350px;
     /* Set a maximum width for the calculator */
     height: 400px;
-    margin: 80px auto;
-   
+    margin: 50px auto;
     background-color: brown;
     border: 2px solid black;
 
